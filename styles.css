@@ -1,0 +1,229 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #e60000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.header span {
+    margin: 0 15px;
+}
+
+.header .contact {
+    display: inline-block;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar .pay-now {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.main-content p span {
+    color: red;
+    font-weight: bold;
+}
+
+.main-content .highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content-left, .content-right {
+    width: 48%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.sidebar .card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .card h3 {
+    color: #000080;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sidebar .card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sidebar .card i {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.register-now {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    transform: rotate(-90deg);
+    transform-origin: right top;
+    font-weight: bold;
+}
+
+.chat {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.et_pb_button_module_wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.et_pb_button {
+    background-color: #e60000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.et_pb_button:hover {
+    background-color: #b30000;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.left, .middle, .right {
+    width: 30%;
+}
+
+.left img {
+    width: 30px;
+    height: 30px;
+}
+
+.left h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.left p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.left p strong {
+    color: #ff0000;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.middle h2, .right h2 {
+    color: #ff0000;
+    font-size: 18px;
+}
+
+.middle ul, .right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.middle ul li, .right ul li {
+    margin-bottom: 10px;
+}
+
+.right ul li i {
+    color: #ff0000;
+    margin-right: 10px;
+}

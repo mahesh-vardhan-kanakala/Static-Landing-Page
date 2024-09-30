@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innomatics Research Labs</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header {
+            background-color: #e60000;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+        .header span {
+            margin: 0 15px;
+        }
+        .header .contact {
+            display: inline-block;
+            background-color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .navbar {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
+            text-align: center;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .navbar .pay-now {
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .main-content h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .main-content p {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: left;
+            margin: 20px 0;
+        }
+        .main-content p span {
+            color: red;
+            font-weight: bold;
+        }
+        .main-content .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .content-left, .content-right {
+            width: 48%;
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
+        }
+        .sidebar .card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar .card h3 {
+            color: #000080;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .sidebar .card p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .sidebar .card i {
+            font-size: 40px;
+            color: red;
+            margin-bottom: 10px;
+        }
+        .register-now {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            background-color: red;
+            color: white;
+            padding: 10px;
+            transform: rotate(-90deg);
+            transform-origin: right top;
+            font-weight: bold;
+        }
+        .chat {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+        .et_pb_button_module_wrapper {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .et_pb_button {
+            background-color: #e60000;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .et_pb_button:hover {
+            background-color: #b30000;
+        }
+        .logo img {
+            width: 150px;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            font-size: 14px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+        .left, .middle, .right {
+            width: 30%;
+        }
+        .left img {
+            width: 30px;
+            height: 30px;
+        }
+        .left h1 {
+            font-size: 24px;
+            color: #fff;
+        }
+        .left p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .left p strong {
+            color: #ff0000;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: #fff;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .middle h2, .right h2 {
+            color: #ff0000;
+            font-size: 18px;
+        }
+        .middle ul, .right ul {
+            list-style: none;
+            padding: 0;
+        }
+        .middle ul li, .right ul li {
+            margin-bottom: 10px;
+        }
+        .right ul li i {
+            color: #ff0000;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span>Enquire Now:</span>
+        <span>Hyd: <i class="fas fa-phone"></i> 1800 4120 0096</span>
+        <span>Pune: <i class="fas fa-phone"></i> 9951666671</span>
+        <span>Alternative Numbers: +91 9347804375 | +91 6304126766</span>
+    </div>
+    <div class="navbar">
+        <span class="et_pb_image_wrap logo">
+            <img alt="Innomatics Logo" src="http://innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png" width="559"/>
+        </span>
+        <a href="#">Home</a>
+        <a href="#">Courses <i class="fas fa-caret-down"></i></a>
+        <a href="#">Internship <i class="fas fa-caret-down"></i></a>
+        <a href="#">About us <i class="fas fa-caret-down"></i></a>
+        <a href="#">Events <i class="fas fa-caret-down"></i></a>
+        <a class="pay-now" href="#">₹ Pay Now</a>
+    </div>
+    <div class="content-wrapper">
+        <div class="content-left">
+            <div class="main-content">
+                <h1>We just don’t train,<br/>We transform the careers</h1>
+                <p>
+                    <span>Innomatics Research Labs</span> is a pioneer in <span>“Transforming Careers and Lives”</span> of individuals in the Digital Space by catering advanced training on <span>NASSCOM Future skills prime Certified Data Science, Python, Predictive Analytics Modeler, Machine Learning, Artificial Intelligence (AI), Full-stack web development, Amazon Web Services (AWS), DevOps, Microsoft Azure, Big data Analytics, Digital Marketing, and Career Launching program</span> for students who are willing to showcase their skills in the competitive job market with valuable credentials, and also can complete courses with a certificate.
+                </p>
+                <p class="highlight">NASSCOM Futureskills Prime Registered Business Partner</p>
+                <p>
+                    As an authorized “Training Partner with NASSCOM Futureskills Prime,” we strive to make individuals learn not just algorithms but also case studies and challenges derived from businesses. To improve the effectiveness and productivity of our trainee <span>hackathons, workshops, and meetups</span> are conducted on a timely basis. Having a dedicated <span>placement vertical</span>, which helps trainees conquer the business world, solves the complexities. Innomatics research labs are supporting over 100 companies in finding the best candidate, which can upskill the business requirements and foster growth.
+                </p>
+                <p class="highlight">Best Edtech company</p>
+                <p>
+                    Recognized and rewarded by Times Of India as the Best Training Institute in Hyderabad for Data Science &amp; Digital Marketing Training. With relentless hard work, sophisticated equipment, advanced classrooms, cutting-edge training methodologies, practical training approach, and making individuals skillful. We have trained and placed 10,000 students with a track record of 350+ batches, 200+ Hackathons, 150+ Industry Experts, 500+ Webinars, and 500+ Workshops.
+                </p>
+                <div class="et_pb_button_module_wrapper">
+                    <a href="#" class="et_pb_button">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="sidebar">
+                <div class="card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Data Science</h3>
+                    <p>From basic to advanced levels, we provide real-world projects to enhance your skills.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Computing</h3>
+                    <p>Learn the most demanded skills in the IT industry with expert guidance.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Career Guidance</h3>
+                    <p>We assist you with placements and internships to kickstart your career.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="register-now">Register Now</div>
+    <div class="chat">Chat</div>
+    <div class="footer">
+        <div class="container">
+            <div class="left">
+                <h1>Innomatics Research Labs</h1>
+                <p><strong>Transforming Careers</strong> and nurturing skills for a better future.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="middle">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><i class="fas fa-phone"></i> 1800 4120 0096</li>
+                    <li><i class="fas fa-envelope"></i> info@innomatics.in</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Hyderabad, India</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
